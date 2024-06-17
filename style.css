@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,24 +9,31 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    
+   
 
 }
 .box{
     height: 80vh;width: 100vw;
     background-color: black;
     opacity: 0.74;
+    position: absolute;
 }
 .nav{
     z-index: 10;
-    position:fixed;
+    
+    display: flex;
+    
+
     
     
     
 }
 .nav img{
     margin-left: 1vh;
+    height: 8vh;
     margin-top: 5px;
+    width: 10vw;
+    position: left ;
 }
 span{
     position: absolute;
@@ -37,7 +44,77 @@ span{
   font-weight: bold;
   font-size: xxx-large;
 }
-.separtion{
-    height: 5vh;
-    background-color: gray;
+
+#det{
+    display: flex;
+    flex-direction: row;
 }
+#det1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+  z-index: 10;
+    
+}
+#det2{
+    color: white;
+    text-align: center;
+    padding: 15px;font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#det3{
+    color: white;
+    text-align: center; padding: 15px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+#boxx{
+    padding: 250px;
+    z-index: 100;
+}
+#separation{
+    background-color: gray;
+    height: 1vh;
+    width: 100vw;
+}
+#cnt1{
+    height: 50vh;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+}
+#cnt2{
+    height: 30vh;
+    width: 40vw;
+    
+    margin-top: 97px;
+    margin-left: 181px;
+    color: white;
+    text-align: center; padding: 15px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.i{
+    font-size: 60px;
+}
+.i2{font-size: 25px;
+
+}
+#cnt3 img{
+    position:absolute;
+}
+#cnt3 video{
+    margin-top: 80px;
+    object-fit: fill;
+}
+
